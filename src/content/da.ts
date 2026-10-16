@@ -122,6 +122,8 @@ export const paths = {
 
 export const about = {
   eyebrow: "Om os",
+  cta: "Book et møde",
+  ctaHref: `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent("Book et møde")}`,
   title: "En god hjemmeside burde ikke kræve et bureau.",
   lede: "Vi har bygget Britesite på mange års erfaring med brand, markedsføring og udvikling. Og har du brug for et menneske, står vi altid klar. Uden kø og uden chatbot.",
   people: [

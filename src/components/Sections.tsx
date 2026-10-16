@@ -175,6 +175,12 @@ export function About() {
             {about.title}
           </Reveal>
           <p className="mt-6 max-w-[42ch] text-pretty text-[17px] text-muted">{about.lede}</p>
+          <a
+            href={about.ctaHref}
+            className="mt-7 inline-flex rounded-full bg-ink px-7 py-[15px] text-[15.5px] font-semibold text-white transition-colors hover:bg-clay"
+          >
+            {about.cta}
+          </a>
         </div>
         <div className="grid grid-cols-2 gap-3">
           {about.people.map((person, i) => (
