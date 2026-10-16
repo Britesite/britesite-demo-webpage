@@ -37,6 +37,13 @@ export function Hero() {
       </motion.div>
 
       <div className="relative mx-auto flex max-w-[1180px] flex-col items-center text-center">
+        <motion.p
+          {...enter(0)}
+          className="mb-7 rounded-full border border-ink/[.09] bg-white/70 px-4 py-2 text-[14.5px] font-medium text-ink"
+        >
+          {hero.notice}
+        </motion.p>
+
         <motion.h1
           {...enter(0.08)}
           className="m-0 max-w-[15ch] text-balance text-[clamp(37px,5.17vw,79px)] font-semibold leading-[.95] tracking-[-.045em]"
