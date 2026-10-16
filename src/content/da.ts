@@ -2,7 +2,6 @@
 
 export const CONTACT_EMAIL = "info@britesite.dk";
 export const CONTACT_HREF = `mailto:${CONTACT_EMAIL}`;
-export const BOOK_HREF = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent("Jeg vil gerne booke et møde")}`;
 
 export const nav = [
   { href: "#byg", label: "Byg" },
@@ -14,7 +13,6 @@ export const hero = {
   titleLead: "Chat dig til en hjemmeside,",
   titleAccent: "du selv kan rette.",
   lede: "Fortæl Britesite med dine egne ord, hvad der skal ændres. Se ændringen med det samme, og tryk udgiv, når du er klar. Ingen kode, intet bureau, ingen ventetid.",
-  notice: "Vi holder lukket mellem jul og nytår.",
   cta: "Kom i gang",
   secondary: "Se hvordan det virker",
   videoPlaceholder: "Hero-video: skærmoptagelse af en rettelse",
@@ -126,7 +124,6 @@ export const about = {
   eyebrow: "Om os",
   title: "En god hjemmeside burde ikke kræve et bureau.",
   lede: "Vi har bygget Britesite på mange års erfaring med brand, markedsføring og udvikling. Og har du brug for et menneske, står vi altid klar. Uden kø og uden chatbot.",
-  cta: "Book et møde",
   people: [
     { name: "Marc", role: "Teknik og udvikling", placeholder: "Marc, portræt", photo: undefined as string | undefined },
     { name: "Amanda", role: "Brand og markedsføring", placeholder: "Amanda, portræt", photo: undefined as string | undefined },

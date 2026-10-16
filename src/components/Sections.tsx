@@ -1,7 +1,7 @@
 import { BrandMark } from "./BrandMark";
 import { ImageSlot } from "./ImageSlot";
 import { Reveal } from "./Reveal";
-import { BOOK_HREF, CONTACT_HREF, about, ownership, paths, stats } from "@/content/da";
+import { CONTACT_HREF, about, ownership, paths, stats } from "@/content/da";
 
 const EYEBROW = "mb-[22px] mt-0 font-mono text-xs font-medium uppercase tracking-[.16em]";
 const H2 = "m-0 text-balance font-semibold leading-[.98] tracking-[-.04em]";
@@ -175,12 +175,6 @@ export function About() {
             {about.title}
           </Reveal>
           <p className="mt-6 max-w-[42ch] text-pretty text-[17px] text-muted">{about.lede}</p>
-          <a
-            href={BOOK_HREF}
-            className="mt-8 inline-flex items-center gap-3 rounded-full bg-ink px-7 py-4 text-[16.5px] font-semibold leading-[1.2] text-white transition-colors hover:bg-clay"
-          >
-            {about.cta}
-          </a>
         </div>
         <div className="grid grid-cols-2 gap-3">
           {about.people.map((person, i) => (
