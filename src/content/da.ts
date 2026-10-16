@@ -13,7 +13,6 @@ export const hero = {
   titleLead: "Chat dig til en hjemmeside,",
   titleAccent: "du selv kan rette.",
   lede: "Fortæl Britesite med dine egne ord, hvad der skal ændres. Se ændringen med det samme, og tryk udgiv, når du er klar. Ingen kode, intet bureau, ingen ventetid.",
-  notice: "Vi holder lukket mellem jul og nytår.",
   cta: "Kom i gang",
   secondary: "Se hvordan det virker",
   videoPlaceholder: "Hero-video: skærmoptagelse af en rettelse",
