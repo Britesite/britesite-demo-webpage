@@ -9,9 +9,6 @@ export function Hero() {
           {hero.title}
         </h1>
         <p className="mt-5 max-w-[44ch] text-[18px] leading-relaxed text-cream/80">{hero.lede}</p>
-        <p className="mt-5 inline-block rounded-full bg-cream/15 px-4 py-2 text-[15px] font-semibold text-cream">
-          {hero.notice}
-        </p>
         <div className="mt-8 flex flex-wrap gap-3">
           <a href="#menu" className="rounded-full bg-cream px-6 py-3 text-[16px] font-semibold text-coffee hover:bg-white">
             {hero.primary}

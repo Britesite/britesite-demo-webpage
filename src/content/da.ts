@@ -15,7 +15,6 @@ export const hero = {
   eyebrow: "Bageri og café · Aarhus C",
   title: "Morgenbrød og kaffe siden 1998",
   lede: "Surdejsbrød, kanelsnegle og god kaffe. Bagt hver morgen i Mejlgade.",
-  notice: "Vi holder lukket mellem jul og nytår.",
   primary: "Se menuen",
   secondary: "Book bord",
 };
