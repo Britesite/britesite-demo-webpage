@@ -17,6 +17,11 @@ export const news = {
   lede: "Det nyeste fra bageriet i Mejlgade.",
   items: [
     {
+      title: "Vi holder lukket den 24. december",
+      date: "18. oktober 2026",
+      body: "Den 24. december holder bageriet lukket. Vi ønsker alle en rigtig glædelig jul og glæder os til at se jer igen bagefter.",
+    },
+    {
       title: "Surdejsbrød hver lørdag morgen",
       date: "18. oktober 2026",
       body: "Fra nu af bager vi friske surdejsbrød hver lørdag morgen. Kom forbi og tag et varmt brød med hjem.",
