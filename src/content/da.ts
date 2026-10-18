@@ -9,6 +9,7 @@ export const nav = [
   { href: "#menu", label: "Menu" },
   { href: "#besog", label: "Åbningstider" },
   { href: "#om", label: "Om os" },
+  { href: "/nyheder", label: "Nyheder" },
 ];
 
 export const hero = {
@@ -53,4 +54,16 @@ export const about = {
 
 export const footer = {
   line: "Café Lærke · Mejlgade 21 · 8000 Aarhus C",
+};
+
+export const news = {
+  title: "Nyheder",
+  lede: "Det nyeste fra bageriet i Mejlgade.",
+  back: "Tilbage til forsiden",
+  items: [
+    {
+      title: "Surdejsbrød hver lørdag morgen",
+      body: "Fra nu af bager vi friskt surdejsbrød hver lørdag morgen. Kom forbi i Mejlgade og tag et varmt brød med hjem til weekenden.",
+    },
+  ],
 };
