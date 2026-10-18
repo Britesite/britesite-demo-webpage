@@ -23,7 +23,7 @@ export const visit = {
   hoursTitle: "Åbningstider",
   hours: [
     { days: "Mandag – torsdag", time: "7 – 17" },
-    { days: "Fredag", time: "7 – 17" },
+    { days: "Fredag", time: "7 – 16" },
     { days: "Lørdag", time: "8 – 15" },
     { days: "Søndag", time: "8 – 15" },
   ],
