@@ -7,10 +7,13 @@ export function Menu() {
       <p className="mt-3 text-[18px] text-muted">{menu.lede}</p>
       <ul className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {menu.items.map((item) => (
-          <li key={item.name} className="flex flex-col rounded-2xl border border-line bg-card p-6 shadow-[0_8px_24px_-12px_rgba(0,0,0,.6)] transition hover:-translate-y-0.5 hover:border-crust">
+          <li
+            key={item.name}
+            className="flex flex-col rounded-2xl border border-line bg-card p-6 shadow-[0_8px_24px_rgba(0,0,0,.25)] transition hover:-translate-y-0.5 hover:border-crust"
+          >
             <span className="font-serif text-[22px] font-medium">{item.name}</span>
             <span className="mt-2 text-[15px] text-muted">{item.note}</span>
-            <span className="mt-auto pt-5 text-[18px] font-semibold tabular-nums text-crust">{item.price}</span>
+            <span className="mt-auto border-t border-line pt-4 text-[18px] font-semibold tabular-nums text-crust">{item.price}</span>
           </li>
         ))}
       </ul>

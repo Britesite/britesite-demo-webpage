@@ -6,26 +6,15 @@ export const site = {
 };
 
 export const nav = [
-  { href: "/#menu", label: "Menu" },
+  { href: "#menu", label: "Menu" },
+  { href: "#besog", label: "Åbningstider" },
+  { href: "#om", label: "Om os" },
   { href: "/nyheder", label: "Nyheder" },
-  { href: "/#besog", label: "Åbningstider" },
-  { href: "/#om", label: "Om os" },
 ];
-
-export const news = {
-  title: "Nyheder",
-  lede: "Det nyeste fra ovnen i Mejlgade.",
-  items: [
-    {
-      title: "Surdejsbrød hver lørdag morgen",
-      body: "Fra nu af bager vi surdejsbrød hver lørdag morgen. Kom forbi og få det friskt fra ovnen.",
-    },
-  ],
-};
 
 export const hero = {
   eyebrow: "Bageri og café · Aarhus C",
-  title: "Frisk brød hver morgen",
+  title: "Morgenbrød og kaffe siden 1998",
   lede: "Surdejsbrød, kanelsnegle og god kaffe. Bagt hver morgen i Mejlgade.",
   primary: "Se menuen",
   secondary: "Book bord",
@@ -35,7 +24,7 @@ export const visit = {
   hoursTitle: "Åbningstider",
   hours: [
     { days: "Mandag – torsdag", time: "7 – 17" },
-    { days: "Fredag", time: "7 – 17" },
+    { days: "Fredag", time: "7 – 16" },
     { days: "Lørdag", time: "8 – 15" },
     { days: "Søndag", time: "8 – 15" },
   ],
@@ -50,10 +39,9 @@ export const menu = {
   lede: "Det hele bages her i huset, fra klokken fem om morgenen.",
   items: [
     { name: "Surdejsbrød", note: "Hvede og rug, langtidshævet", price: "45 kr." },
-    { name: "Kanelsnegl", note: "Med smør og brun farin", price: "35 kr." },
+    { name: "Kanelsnegl", note: "Med smør og brun farin", price: "32 kr." },
     { name: "Tebirkes", note: "Med remonce og birkes", price: "18 kr." },
     { name: "Rugbrød", note: "Kerner og surdej", price: "40 kr." },
-    { name: "Glutenfrit rugbrød", note: "Uden gluten, med kerner", price: "45 kr." },
     { name: "Cappuccino", note: "Bønner fra Aarhus Kafferisteri", price: "42 kr." },
     { name: "Dagens frokost", note: "Skifter hver dag, kl. 11 – 14", price: "115 kr." },
   ],
@@ -66,4 +54,16 @@ export const about = {
 
 export const footer = {
   line: "Café Lærke · Mejlgade 21 · 8000 Aarhus C",
+};
+
+export const news = {
+  title: "Nyheder",
+  lede: "Det nyeste fra bageriet i Mejlgade.",
+  back: "Tilbage til forsiden",
+  items: [
+    {
+      title: "Surdejsbrød hver lørdag morgen",
+      body: "Fra nu af bager vi friskt surdejsbrød hver lørdag morgen. Kom forbi i Mejlgade og tag et varmt brød med hjem til weekenden.",
+    },
+  ],
 };

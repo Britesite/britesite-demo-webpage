@@ -9,7 +9,7 @@ export function Header() {
       </Link>
       <nav className="ml-auto hidden gap-7 text-[15px] text-muted sm:flex">
         {nav.map((n) => (
-          <a key={n.href} href={n.href} className="hover:text-ink">
+          <a key={n.href} href={n.href.startsWith("#") ? `/${n.href}` : n.href}className="hover:text-ink">
             {n.label}
           </a>
         ))}

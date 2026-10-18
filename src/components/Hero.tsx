@@ -3,7 +3,7 @@ import { hero, site } from "@/content/da";
 export function Hero() {
   return (
     <section className="mx-auto max-w-[1120px] px-6">
-      <div className="rounded-[28px] bg-coffee ring-1 ring-crust/40 px-[clamp(28px,5vw,64px)] py-[clamp(40px,5vw,64px)] text-cream">
+      <div className="rounded-[28px] bg-coffee ring-1 ring-crust/30 px-[clamp(28px,5vw,64px)] py-[clamp(40px,5vw,64px)] text-cream">
         <p className="text-[13px] font-semibold uppercase tracking-[.16em] text-crust">{hero.eyebrow}</p>
         <h1 className="mt-4 max-w-[14ch] font-serif text-[clamp(40px,5.6vw,68px)] font-medium leading-[1.02] tracking-[-.02em]">
           {hero.title}
@@ -15,7 +15,7 @@ export function Hero() {
           </a>
           <a
             href={site.bookHref}
-            className="rounded-full px-6 py-3 text-[16px] font-semibold text-cream ring-1 ring-crust/50 ring-inset hover:ring-crust"
+            className="rounded-full px-6 py-3 text-[16px] font-semibold text-cream ring-1 ring-cream/40 ring-inset hover:ring-cream"
           >
             {hero.secondary}
           </a>
