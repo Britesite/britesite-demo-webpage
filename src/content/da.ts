@@ -54,6 +54,7 @@ export const menu = {
     { name: "Kanelsnegl", note: "Med smør og brun farin", price: "35 kr." },
     { name: "Tebirkes", note: "Med remonce og birkes", price: "18 kr." },
     { name: "Rugbrød", note: "Kerner og surdej", price: "40 kr." },
+    { name: "Glutenfrit rugbrød", note: "Uden gluten, med kerner", price: "45 kr." },
     { name: "Cappuccino", note: "Bønner fra Aarhus Kafferisteri", price: "42 kr." },
     { name: "Dagens frokost", note: "Skifter hver dag, kl. 11 – 14", price: "115 kr." },
   ],
