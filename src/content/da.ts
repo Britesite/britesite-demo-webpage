@@ -26,7 +26,7 @@ export const news = {
 
 export const hero = {
   eyebrow: "Bageri og café · Aarhus C",
-  title: "Morgenbrød og kaffe siden 1998",
+  title: "Frisk brød hver morgen",
   lede: "Surdejsbrød, kanelsnegle og god kaffe. Bagt hver morgen i Mejlgade.",
   primary: "Se menuen",
   secondary: "Book bord",
