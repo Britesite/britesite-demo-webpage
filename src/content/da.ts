@@ -6,10 +6,22 @@ export const site = {
 };
 
 export const nav = [
-  { href: "#menu", label: "Menu" },
-  { href: "#besog", label: "Åbningstider" },
-  { href: "#om", label: "Om os" },
+  { href: "/#menu", label: "Menu" },
+  { href: "/nyheder", label: "Nyheder" },
+  { href: "/#besog", label: "Åbningstider" },
+  { href: "/#om", label: "Om os" },
 ];
+
+export const news = {
+  title: "Nyheder",
+  lede: "Det nyeste fra ovnen i Mejlgade.",
+  items: [
+    {
+      title: "Surdejsbrød hver lørdag morgen",
+      body: "Fra nu af bager vi surdejsbrød hver lørdag morgen. Kom forbi og få det friskt fra ovnen.",
+    },
+  ],
+};
 
 export const hero = {
   eyebrow: "Bageri og café · Aarhus C",
