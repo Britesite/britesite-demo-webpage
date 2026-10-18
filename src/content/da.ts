@@ -14,18 +14,19 @@ export const nav = [
 
 export const news = {
   title: "Nyheder",
-  lede: "Det seneste fra bageriet i Mejlgade.",
+  lede: "Det nyeste fra bageriet i Mejlgade.",
   items: [
     {
+      date: "18. oktober 2026",
       title: "Surdejsbrød hver lørdag morgen",
-      body: "Hver lørdag morgen bager vi friske surdejsbrød, så du kan tage et varmt brød med hjem til weekenden.",
+      body: "Hver lørdag morgen bager vi friske surdejsbrød. Kom forbi og tag et varmt brød med hjem.",
     },
   ],
 };
 
 export const hero = {
   eyebrow: "Bageri og café · Aarhus C",
-  title: "Morgenbrød og kaffe siden 1998",
+  title: "Frisk brød hver morgen",
   lede: "Surdejsbrød, kanelsnegle og god kaffe. Bagt hver morgen i Mejlgade.",
   primary: "Se menuen",
   secondary: "Book bord",
@@ -50,9 +51,10 @@ export const menu = {
   lede: "Det hele bages her i huset, fra klokken fem om morgenen.",
   items: [
     { name: "Surdejsbrød", note: "Hvede og rug, langtidshævet", price: "45 kr." },
-    { name: "Kanelsnegl", note: "Med smør og brun farin", price: "32 kr." },
+    { name: "Kanelsnegl", note: "Med smør og brun farin", price: "35 kr." },
     { name: "Tebirkes", note: "Med remonce og birkes", price: "18 kr." },
     { name: "Rugbrød", note: "Kerner og surdej", price: "40 kr." },
+    { name: "Glutenfrit rugbrød", note: "Uden gluten, med kerner", price: "45 kr." },
     { name: "Cappuccino", note: "Bønner fra Aarhus Kafferisteri", price: "42 kr." },
     { name: "Dagens frokost", note: "Skifter hver dag, kl. 11 – 14", price: "115 kr." },
   ],
