@@ -50,7 +50,7 @@ export const menu = {
   lede: "Det hele bages her i huset, fra klokken fem om morgenen.",
   items: [
     { name: "Surdejsbrød", note: "Hvede og rug, langtidshævet", price: "45 kr." },
-    { name: "Kanelsnegl", note: "Med smør og brun farin", price: "32 kr." },
+    { name: "Kanelsnegl", note: "Med smør og brun farin", price: "35 kr." },
     { name: "Tebirkes", note: "Med remonce og birkes", price: "18 kr." },
     { name: "Rugbrød", note: "Kerner og surdej", price: "40 kr." },
     { name: "Cappuccino", note: "Bønner fra Aarhus Kafferisteri", price: "42 kr." },
