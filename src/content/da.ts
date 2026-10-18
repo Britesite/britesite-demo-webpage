@@ -66,7 +66,7 @@ export const menu = {
 
 export const about = {
   title: "Et familiebageri i Mejlgade",
-  body: "Lærke og Jens åbnede bageriet i 1998 med én ovn og en drøm om ordentligt brød. I dag er vi otte, men vi bager stadig efter de samme opskrifter, og kaffen er stadig på kanden, når du kommer.",
+  body: "Lærke og Jens åbnede bageriet i 1998 med én ovn og en drøm om ordentligt brød. I dag er vi otte, men vi bager stadig efter de samme opskrifter, og kaffen er stadig på kanden, når du kommer. Vi bager også glutenfrit brød.",
 };
 
 export const footer = {
