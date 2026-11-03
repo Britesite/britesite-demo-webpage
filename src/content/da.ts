@@ -6,10 +6,9 @@ export const site = {
 };
 
 export const nav = [
-  { href: "/#menu", label: "Menu" },
-  { href: "/#besog", label: "Åbningstider" },
-  { href: "/#om", label: "Om os" },
-  { href: "/nyheder", label: "Nyheder" },
+  { href: "#menu", label: "Menu" },
+  { href: "#besog", label: "Åbningstider" },
+  { href: "#om", label: "Om os" },
 ];
 
 export const hero = {
@@ -50,18 +49,6 @@ export const menu = {
 export const about = {
   title: "Et familiebageri i Mejlgade",
   body: "Lærke og Jens åbnede bageriet i 1998 med én ovn og en drøm om ordentligt brød. I dag er vi otte, men vi bager stadig efter de samme opskrifter, og kaffen er stadig på kanden, når du kommer.",
-};
-
-export const reviews = {
-  title: "Det siger vores gæster",
-  items: [{ quote: "Byens bedste brød", name: "Mette" }],
-};
-
-export const news = {
-  title: "Nyheder",
-  lede: "Det nyeste fra bageriet i Mejlgade.",
-  empty: "Der er ingen nyheder lige nu. Kig snart forbi igen.",
-  items: [] as { date: string; title: string; body: string }[],
 };
 
 export const footer = {
