@@ -2,15 +2,15 @@
 
 /* Café Lærke: coffee brown on warm paper. */
 @theme {
-  --color-paper: #f4efe6;
-  --color-card: #fbf8f2;
-  --color-ink: #1f1a15;
-  --color-muted: #6a6157;
-  --color-coffee: #4a3829;
-  --color-coffee-deep: #36281c;
+  --color-paper: #141211;
+  --color-card: #1d1a17;
+  --color-ink: #f3ede3;
+  --color-muted: #aba094;
+  --color-coffee: #2b2119;
+  --color-coffee-deep: #3a2d22;
   --color-cream: #f7efe4;
-  --color-crust: #c9a47a;
-  --color-line: #e4dccf;
+  --color-crust: #d4b07f;
+  --color-line: #342e27;
 
   --font-sans: var(--font-dm-sans), system-ui, sans-serif;
   --font-serif: var(--font-fraunces), Georgia, serif;
