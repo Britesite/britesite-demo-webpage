@@ -3,7 +3,7 @@ import { hero, site } from "@/content/da";
 export function Hero() {
   return (
     <section className="mx-auto max-w-[1120px] px-6">
-      <div className="rounded-[28px] bg-coffee ring-1 ring-linepx-[clamp(28px,5vw,64px)] py-[clamp(40px,5vw,64px)] text-cream">
+      <div className="rounded-[28px] bg-coffee px-[clamp(28px,5vw,64px)] py-[clamp(40px,5vw,64px)] text-cream">
         <p className="text-[13px] font-semibold uppercase tracking-[.16em] text-crust">{hero.eyebrow}</p>
         <h1 className="mt-4 max-w-[14ch] font-serif text-[clamp(40px,5.6vw,68px)] font-medium leading-[1.02] tracking-[-.02em]">
           {hero.title}
