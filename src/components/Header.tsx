@@ -15,7 +15,7 @@ export function Header() {
       </nav>
       <a
         href={site.bookHref}
-        className="ml-auto rounded-full bg-coffee px-5 py-2.5 text-[15px] font-semibold text-cream hover:bg-coffee-deep sm:ml-0"
+        className="ml-auto rounded-full bg-coffee px-5 py-2.5 text-[15px] font-semibold text-paper hover:bg-coffee-deep sm:ml-0"
       >
         Book bord
       </a>
