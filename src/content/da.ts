@@ -6,10 +6,10 @@ export const site = {
 };
 
 export const nav = [
-  { href: "#menu", label: "Menu" },
-  { href: "#besog", label: "Åbningstider" },
-  { href: "#om", label: "Om os" },
+  { href: "/#menu", label: "Menu" },
   { href: "/nyheder", label: "Nyheder" },
+  { href: "/#besog", label: "Åbningstider" },
+  { href: "/#om", label: "Om os" },
 ];
 
 export const hero = {
@@ -52,18 +52,25 @@ export const about = {
   body: "Lærke og Jens åbnede bageriet i 1998 med én ovn og en drøm om ordentligt brød. I dag er vi otte, men vi bager stadig efter de samme opskrifter, og kaffen er stadig på kanden, når du kommer.",
 };
 
-export const footer = {
-  line: "Café Lærke · Mejlgade 21 · 8000 Aarhus C",
+export const reviews = {
+  title: "Det siger vores gæster",
+  items: [
+    { quote: "Byens bedste kanelsnegle", name: "Mette" },
+    { quote: "Altid friskt brød", name: "Jonas" },
+  ],
 };
 
 export const news = {
   title: "Nyheder",
   lede: "Det nyeste fra bageriet i Mejlgade.",
-  back: "Tilbage til forsiden",
   items: [
     {
       title: "Surdejsbrød hver lørdag morgen",
-      body: "Fra nu af bager vi friskt surdejsbrød hver lørdag morgen. Kom forbi i Mejlgade og tag et varmt brød med hjem til weekenden.",
+      body: "Fra nu af bager vi friskt surdejsbrød hver lørdag morgen. Kom forbi og få det, mens det er varmt.",
     },
   ],
+};
+
+export const footer = {
+  line: "Café Lærke · Mejlgade 21 · 8000 Aarhus C",
 };
