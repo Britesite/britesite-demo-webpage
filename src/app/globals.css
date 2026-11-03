@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
-/* Café Lærke: coffee brown on warm paper. */
+/* Café Lærke: dark and elegant, with gold accents. */
 @theme {
-  --color-paper: #f4efe6;
-  --color-card: #fbf8f2;
-  --color-ink: #1f1a15;
-  --color-muted: #6a6157;
-  --color-coffee: #4a3829;
-  --color-coffee-deep: #36281c;
+  --color-paper: #14110e;
+  --color-card: #1e1913;
+  --color-ink: #f2ebe0;
+  --color-muted: #a99e90;
+  --color-coffee: #2b2119;
+  --color-coffee-deep: #3a2d22;
   --color-cream: #f7efe4;
-  --color-crust: #c9a47a;
-  --color-line: #e4dccf;
+  --color-crust: #d4af7a;
+  --color-line: #3a3026;
 
   --font-sans: var(--font-dm-sans), system-ui, sans-serif;
   --font-serif: var(--font-fraunces), Georgia, serif;
