@@ -60,8 +60,12 @@ export const reviews = {
 export const news = {
   title: "Nyheder",
   lede: "Det nyeste fra bageriet i Mejlgade.",
-  empty: "Der er ingen nyheder lige nu. Kig snart forbi igen.",
-  items: [] as { date: string; title: string; body: string }[],
+  items: [
+    {
+      title: "Surdejsbrød hver lørdag morgen",
+      body: "Hver lørdag morgen bager vi friske surdejsbrød af hvede og rug, langtidshævet og klar til dig, når vi åbner kl. 8. Kom i god tid, så du er sikker på at få et med hjem.",
+    },
+  ],
 };
 
 export const footer = {
