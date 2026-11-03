@@ -51,6 +51,11 @@ export const about = {
   body: "Lærke og Jens åbnede bageriet i 1998 med én ovn og en drøm om ordentligt brød. I dag er vi otte, men vi bager stadig efter de samme opskrifter, og kaffen er stadig på kanden, når du kommer.",
 };
 
+export const reviews = {
+  title: "Det siger vores gæster",
+  items: [{ quote: "Byens bedste brød", name: "Mette" }],
+};
+
 export const footer = {
   line: "Café Lærke · Mejlgade 21 · 8000 Aarhus C",
 };
