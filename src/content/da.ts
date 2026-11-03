@@ -7,9 +7,9 @@ export const site = {
 
 export const nav = [
   { href: "/#menu", label: "Menu" },
-  { href: "/nyheder", label: "Nyheder" },
   { href: "/#besog", label: "Åbningstider" },
   { href: "/#om", label: "Om os" },
+  { href: "/nyheder", label: "Nyheder" },
 ];
 
 export const hero = {
@@ -54,21 +54,14 @@ export const about = {
 
 export const reviews = {
   title: "Det siger vores gæster",
-  items: [
-    { quote: "Byens bedste kanelsnegle", name: "Mette" },
-    { quote: "Altid friskt brød", name: "Jonas" },
-  ],
+  items: [{ quote: "Byens bedste brød", name: "Mette" }],
 };
 
 export const news = {
   title: "Nyheder",
   lede: "Det nyeste fra bageriet i Mejlgade.",
-  items: [
-    {
-      title: "Surdejsbrød hver lørdag morgen",
-      body: "Fra nu af bager vi friskt surdejsbrød hver lørdag morgen. Kom forbi og få det, mens det er varmt.",
-    },
-  ],
+  empty: "Der er ingen nyheder lige nu. Kig snart forbi igen.",
+  items: [] as { date: string; title: string; body: string }[],
 };
 
 export const footer = {
