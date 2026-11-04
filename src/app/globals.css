@@ -3,13 +3,13 @@
 /* Café Lærke: bread on hand-painted porcelain. Deep glaze blue with butter, set in Cormorant and Jost.
    The light version keeps every name and takes the values listed in SITE_GUIDE.md. */
 @theme {
-  --color-paper: #f7f6f1;
-  --color-card: #ffffff;
-  --color-ink: #1b2c52;
-  --color-muted: #5d6a82;
-  --color-line: #d9dde3;
-  --color-accent: #1f3a7a;
-  --color-accent-ink: #f7f6f1;
+  --color-paper: #121a2b;
+  --color-card: #1a2438;
+  --color-ink: #f1efe7;
+  --color-muted: #a9b2c2;
+  --color-line: #2f3b54;
+  --color-accent: #ead6a6;
+  --color-accent-ink: #121a2b;
 
   --font-sans: var(--font-jost), system-ui, sans-serif;
   --font-serif: var(--font-cormorant), Georgia, serif;

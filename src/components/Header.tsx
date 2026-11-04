@@ -1,12 +1,11 @@
-import Link from "next/link";
 import { nav, site } from "@/content/da";
 
 export function Header() {
   return (
     <header className="mx-auto flex max-w-[1240px] items-center gap-9 px-8 py-6">
-      <Link href="/" className="font-serif text-[34px] font-medium italic leading-none tracking-[-.01em]">
+      <a href="#" className="font-serif text-[34px] font-medium italic leading-none tracking-[-.01em]">
         {site.name}
-      </Link>
+      </a>
       <nav className="ml-auto hidden gap-8 text-[17px] text-muted sm:flex">
         {nav.map((n) => (
           <a key={n.href} href={n.href} className="hover:text-ink">

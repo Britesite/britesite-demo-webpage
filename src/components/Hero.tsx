@@ -6,7 +6,7 @@ export function Hero() {
     <section className="mx-auto grid max-w-[1240px] items-center gap-12 px-8 pb-6 pt-6 md:grid-cols-[1.3fr_1fr]">
       <div>
         <p className="font-serif text-[28px] italic text-muted">{hero.eyebrow}</p>
-        <h1 className="mt-4 max-w-[10ch] font-serif text-[clamp(60px,8.6vw,116px)] font-normal leading-[.94] tracking-[-.02em]">
+        <h1 className="mt-4 max-w-[10ch] font-serif text-[clamp(52px,6.8vw,84px)] font-normal leading-[.94] tracking-[-.02em]">
           {hero.title}
         </h1>
         <p className="mt-8 max-w-[38ch] text-[20px] leading-[1.55] text-muted">{hero.lede}</p>

@@ -6,10 +6,9 @@ export const site = {
 };
 
 export const nav = [
-  { href: "/#menu", label: "Menu" },
-  { href: "/#besog", label: "Åbningstider" },
-  { href: "/#om", label: "Om os" },
-  { href: "/job", label: "Job" },
+  { href: "#menu", label: "Menu" },
+  { href: "#besog", label: "Åbningstider" },
+  { href: "#om", label: "Om os" },
 ];
 
 export const hero = {
@@ -53,24 +52,6 @@ export const about = {
   imageAlt: "Surdej i en hævekurv og mel på bordet",
   title: "Et familiebageri i Mejlgade",
   body: "Lærke og Jens åbnede bageriet i 1998 med én ovn og en drøm om ordentligt brød. I dag er vi otte, men vi bager stadig efter de samme opskrifter, og kaffen er stadig på kanden, når du kommer.",
-};
-
-export const reviews = {
-  quote: "Byens bedste brød",
-  name: "Mette",
-};
-
-export const job = {
-  eyebrow: "Job",
-  title: "Vi søger en ny kollega",
-  lede: "Vi er otte i bageriet i Mejlgade, og nu er der plads til én mere i vores lille familiebageri.",
-  body: [
-    "Hos os bliver brødet bagt fra klokken fem om morgenen, og kaffen står altid på kanden. Vi holder af godt håndværk, en venlig tone og gæster, der kommer igen.",
-    "Skriv en kort mail om dig selv, og fortæl, hvad du gerne vil lave hos os. Du er også velkommen til at kigge forbi og sige hej.",
-  ],
-  apply: "Send din ansøgning",
-  applyHref: "mailto:hej@cafelaerke.dk?subject=Jobans%C3%B8gning",
-  contact: "Har du spørgsmål, så ring på 86 12 34 56 eller kig ind i Mejlgade 21.",
 };
 
 export const footer = {
