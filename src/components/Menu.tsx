@@ -5,7 +5,7 @@ export function Menu() {
   return (
     <section id="menu" className="mx-auto grid max-w-[1240px] scroll-mt-6 items-start gap-x-24 gap-y-12 px-8 pt-[clamp(80px,10vw,144px)] md:grid-cols-[1fr_1.3fr]">
       <div>
-        <h2 className="font-serif text-[clamp(52px,6vw,80px)] font-normal leading-none tracking-[-.02em]">{menu.title}</h2>
+        <h2 className="font-serif text-[clamp(46px,5.2vw,66px)] font-normal leading-none tracking-[-.02em]">{menu.title}</h2>
         <p className="mt-5 max-w-[30ch] text-[20px] leading-[1.55] text-muted">{menu.lede}</p>
         <div className="relative mt-11 aspect-square w-full max-w-[340px] rounded-full outline-1 outline-offset-[10px] outline-line">
           <div className="absolute inset-0 overflow-hidden rounded-full">
