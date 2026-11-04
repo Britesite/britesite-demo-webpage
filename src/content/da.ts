@@ -6,9 +6,10 @@ export const site = {
 };
 
 export const nav = [
-  { href: "#menu", label: "Menu" },
-  { href: "#besog", label: "Åbningstider" },
-  { href: "#om", label: "Om os" },
+  { href: "/#menu", label: "Menu" },
+  { href: "/#besog", label: "Åbningstider" },
+  { href: "/#om", label: "Om os" },
+  { href: "/nyheder", label: "Nyheder" },
 ];
 
 export const hero = {
@@ -49,6 +50,22 @@ export const menu = {
 export const about = {
   title: "Et familiebageri i Mejlgade",
   body: "Lærke og Jens åbnede bageriet i 1998 med én ovn og en drøm om ordentligt brød. I dag er vi otte, men vi bager stadig efter de samme opskrifter, og kaffen er stadig på kanden, når du kommer.",
+};
+
+export const reviews = {
+  title: "Det siger vores gæster",
+  items: [{ quote: "Byens bedste brød", name: "Mette" }],
+};
+
+export const news = {
+  title: "Nyheder",
+  lede: "Det nyeste fra bageriet i Mejlgade.",
+  items: [
+    {
+      title: "Surdejsbrød hver lørdag morgen",
+      body: "Hver lørdag morgen bager vi friske surdejsbrød af hvede og rug, langtidshævet og klar til dig, når vi åbner kl. 8. Kom i god tid, så du er sikker på at få et med hjem.",
+    },
+  ],
 };
 
 export const footer = {
