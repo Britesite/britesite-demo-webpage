@@ -6,10 +6,25 @@ export const site = {
 };
 
 export const nav = [
-  { href: "#menu", label: "Menu" },
-  { href: "#besog", label: "Åbningstider" },
-  { href: "#om", label: "Om os" },
+  { href: "/#menu", label: "Menu" },
+  { href: "/#besog", label: "Åbningstider" },
+  { href: "/#om", label: "Om os" },
+  { href: "/job", label: "Job" },
 ];
+
+export const job = {
+  title: "Vi søger en ny kollega",
+  lede: "Har du lyst til at være en del af vores lille bageri i Mejlgade? Vi leder efter en ny kollega til holdet.",
+  paragraphs: [
+    "Hos os bliver der bagt fra tidlig morgen, og kaffen er altid på kanden. Vi er et lille hold, hvor man hjælper hinanden og har det godt sammen.",
+    "Vi lægger vægt på, at du har lyst til at gøre gæsterne glade og er med på et godt fællesskab.",
+  ],
+  applyTitle: "Sådan søger du",
+  apply: "Send os en kort besked om dig selv, så vender vi tilbage. Du er også velkommen til at kigge forbi eller ringe på 86 12 34 56.",
+  button: "Send ansøgning",
+  email: "hej@cafelaerke.dk",
+  subject: "Jobansøgning",
+};
 
 export const hero = {
   eyebrow: "Bageri og café · Aarhus C",
