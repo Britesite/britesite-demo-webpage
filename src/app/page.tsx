@@ -3,6 +3,7 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Menu } from "@/components/Menu";
+import { Reviews } from "@/components/Reviews";
 import { Visit } from "@/components/Visit";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
         <Visit />
         <Menu />
         <About />
+        <Reviews />
       </main>
       <Footer />
     </>
