@@ -6,32 +6,18 @@ export const site = {
 };
 
 export const nav = [
-  { href: "/#menu", label: "Menu" },
-  { href: "/#besog", label: "Åbningstider" },
-  { href: "/#om", label: "Om os" },
-  { href: "/job", label: "Job" },
+  { href: "#menu", label: "Menu" },
+  { href: "#besog", label: "Åbningstider" },
+  { href: "#om", label: "Om os" },
 ];
 
-export const job = {
-  title: "Vi søger en ny kollega",
-  lede: "Har du lyst til at være en del af vores lille bageri i Mejlgade? Vi leder efter en ny kollega til holdet.",
-  paragraphs: [
-    "Hos os bliver der bagt fra tidlig morgen, og kaffen er altid på kanden. Vi er et lille hold, hvor man hjælper hinanden og har det godt sammen.",
-    "Vi lægger vægt på, at du har lyst til at gøre gæsterne glade og er med på et godt fællesskab.",
-  ],
-  applyTitle: "Sådan søger du",
-  apply: "Send os en kort besked om dig selv, så vender vi tilbage. Du er også velkommen til at kigge forbi eller ringe på 86 12 34 56.",
-  button: "Send ansøgning",
-  email: "hej@cafelaerke.dk",
-  subject: "Jobansøgning",
-};
-
 export const hero = {
-  eyebrow: "Bageri og café · Aarhus C",
+  eyebrow: "Bageri og café i Mejlgade",
   title: "Morgenbrød og kaffe siden 1998",
   lede: "Surdejsbrød, kanelsnegle og god kaffe. Bagt hver morgen i Mejlgade.",
   primary: "Se menuen",
   secondary: "Book bord",
+  imageAlt: "Tre surdejsbrød på et linnedklæde",
 };
 
 export const visit = {
@@ -51,6 +37,7 @@ export const visit = {
 export const menu = {
   title: "Fra disken",
   lede: "Det hele bages her i huset, fra klokken fem om morgenen.",
+  imageAlt: "En kanelsnegl på en blåmalet tallerken og en kop sort kaffe",
   items: [
     { name: "Surdejsbrød", note: "Hvede og rug, langtidshævet", price: "45 kr." },
     { name: "Kanelsnegl", note: "Med smør og brun farin", price: "32 kr." },
@@ -62,15 +49,11 @@ export const menu = {
 };
 
 export const about = {
+  imageAlt: "Surdej i en hævekurv og mel på bordet",
   title: "Et familiebageri i Mejlgade",
   body: "Lærke og Jens åbnede bageriet i 1998 med én ovn og en drøm om ordentligt brød. I dag er vi otte, men vi bager stadig efter de samme opskrifter, og kaffen er stadig på kanden, når du kommer.",
 };
 
-export const reviews = {
-  title: "Det siger vores gæster",
-  items: [{ quote: "Byens bedste brød", name: "Mette" }],
-};
-
 export const footer = {
-  line: "Café Lærke · Mejlgade 21 · 8000 Aarhus C",
+  line: "Café Lærke, Mejlgade 21, 8000 Aarhus C",
 };
