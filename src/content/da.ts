@@ -54,6 +54,18 @@ export const about = {
   body: "Lærke og Jens åbnede bageriet i 1998 med én ovn og en drøm om ordentligt brød. I dag er vi otte, men vi bager stadig efter de samme opskrifter, og kaffen er stadig på kanden, når du kommer.",
 };
 
+export const reviews = {
+  title: "Det siger vores gæster",
+  items: [
+    { quote: "Byens bedste brød. Vi kommer hver lørdag, og det er altid lunt, når vi går.", name: "Mette", from: "Trøjborg" },
+    { quote: "Kanelsneglene er det bedste ved en morgen i Mejlgade.", name: "Anders", from: "Aarhus C" },
+    { quote: "De kender min bestilling, før jeg når at sige den. Sådan skal et bageri være.", name: "Karen", from: "Mejlgade" },
+    { quote: "Hyggeligt, venligt og kaffe, der faktisk smager af noget.", name: "Sofie", from: "Risskov" },
+    { quote: "Vi bestiller altid vores fødselsdagsbrød her. Det har aldrig svigtet.", name: "Jonas", from: "Vesterbro" },
+    { quote: "Tebirkes som hos min mormor. Stor ros herfra.", name: "Peter", from: "Skåde" },
+  ],
+};
+
 export const footer = {
   line: "Café Lærke, Mejlgade 21, 8000 Aarhus C",
 };

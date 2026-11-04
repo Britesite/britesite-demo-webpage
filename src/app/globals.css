@@ -5,6 +5,7 @@
 @theme {
   --color-paper: #121a2b;
   --color-card: #1a2438;
+  --color-band: #0d1422;
   --color-ink: #f1efe7;
   --color-muted: #a9b2c2;
   --color-line: #2f3b54;
@@ -30,6 +31,31 @@ body {
   color: var(--color-ink);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
+}
+
+/* The reviews drift past on their own; a visitor can stop them by pointing, or scroll them by hand. */
+@keyframes review-drift {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.review-track {
+  animation: review-drift 70s linear infinite;
+}
+
+.review-track:hover {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .review-track {
+    animation: none;
+  }
+
+  .review-row {
+    overflow-x: auto;
+  }
 }
 
 :focus-visible {
