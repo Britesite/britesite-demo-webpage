@@ -2,8 +2,8 @@ import { footer } from "@/content/da";
 
 export function Footer() {
   return (
-    <footer className="mx-auto mt-[clamp(64px,8vw,104px)] max-w-[1120px] border-t border-line px-6 py-10 text-[15px] text-muted">
-      {footer.line}
+    <footer className="mx-auto mt-[clamp(80px,10vw,144px)] max-w-[1240px] px-8 pb-12">
+      <p className="border-t border-line pt-8 text-[17px] text-muted">{footer.line}</p>
     </footer>
   );
 }

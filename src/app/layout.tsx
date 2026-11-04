@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { DM_Sans, Fraunces } from "next/font/google";
+import { Cormorant, Jost } from "next/font/google";
 import { selectionBridgeScript } from "@/lib/selection/bridge";
 import { selectionBridgeConfig } from "@/lib/selection/config";
 import "./globals.css";
 
-const dmSans = DM_Sans({ variable: "--font-dm-sans", subsets: ["latin"] });
-const fraunces = Fraunces({ variable: "--font-fraunces", subsets: ["latin"] });
+const jost = Jost({ variable: "--font-jost", subsets: ["latin"] });
+const cormorant = Cormorant({ variable: "--font-cormorant", subsets: ["latin"], style: ["normal", "italic"] });
 
 const selectionBridge = selectionBridgeConfig();
 const selectionBridgeSource = selectionBridge.origin ? selectionBridgeScript(selectionBridge.origin) : null;
@@ -20,7 +20,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="da"
-      className={`${dmSans.variable} ${fraunces.variable}`}
+      className={`${jost.variable} ${cormorant.variable}`}
     >
       <head>{selectionBridgeSource ? <script dangerouslySetInnerHTML={{ __html: selectionBridgeSource }} /> : null}</head>
       <body>

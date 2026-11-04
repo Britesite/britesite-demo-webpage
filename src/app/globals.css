@@ -1,23 +1,28 @@
 @import "tailwindcss";
 
-/* Café Lærke: coffee brown on warm paper. */
+/* Café Lærke: bread on hand-painted porcelain. Deep glaze blue with butter, set in Cormorant and Jost.
+   The light version keeps every name and takes the values listed in SITE_GUIDE.md. */
 @theme {
-  --color-paper: #f4efe6;
-  --color-card: #fbf8f2;
-  --color-ink: #1f1a15;
-  --color-muted: #6a6157;
-  --color-coffee: #4a3829;
-  --color-coffee-deep: #36281c;
-  --color-cream: #f7efe4;
-  --color-crust: #c9a47a;
-  --color-line: #e4dccf;
+  --color-paper: #121a2b;
+  --color-card: #1a2438;
+  --color-ink: #f1efe7;
+  --color-muted: #a9b2c2;
+  --color-line: #2f3b54;
+  --color-accent: #ead6a6;
+  --color-accent-ink: #121a2b;
 
-  --font-sans: var(--font-dm-sans), system-ui, sans-serif;
-  --font-serif: var(--font-fraunces), Georgia, serif;
+  --font-sans: var(--font-jost), system-ui, sans-serif;
+  --font-serif: var(--font-cormorant), Georgia, serif;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
 
 body {
@@ -25,4 +30,9 @@ body {
   color: var(--color-ink);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
 }

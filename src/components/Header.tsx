@@ -1,13 +1,12 @@
-import Link from "next/link";
 import { nav, site } from "@/content/da";
 
 export function Header() {
   return (
-    <header className="mx-auto flex max-w-[1120px] items-center gap-8 px-6 py-5">
-      <Link href="/" className="font-serif text-[26px] font-semibold tracking-[-.01em] text-coffee">
+    <header className="mx-auto flex max-w-[1240px] items-center gap-9 px-8 py-6">
+      <a href="#" className="font-serif text-[34px] font-medium italic leading-none tracking-[-.01em]">
         {site.name}
-      </Link>
-      <nav className="ml-auto hidden gap-7 text-[15px] text-muted sm:flex">
+      </a>
+      <nav className="ml-auto hidden gap-8 text-[17px] text-muted sm:flex">
         {nav.map((n) => (
           <a key={n.href} href={n.href} className="hover:text-ink">
             {n.label}
@@ -16,7 +15,7 @@ export function Header() {
       </nav>
       <a
         href={site.bookHref}
-        className="ml-auto rounded-full bg-coffee px-5 py-2.5 text-[15px] font-semibold text-cream hover:bg-coffee-deep sm:ml-0"
+        className="ml-auto rounded-full bg-accent px-6 py-3 text-[17px] font-medium text-accent-ink hover:opacity-85 sm:ml-0"
       >
         Book bord
       </a>
