@@ -6,10 +6,9 @@ export const site = {
 };
 
 export const nav = [
-  { href: "/#menu", label: "Menu" },
-  { href: "/#besog", label: "Åbningstider" },
-  { href: "/#om", label: "Om os" },
-  { href: "/job", label: "Job" },
+  { href: "#menu", label: "Menu" },
+  { href: "#besog", label: "Åbningstider" },
+  { href: "#om", label: "Om os" },
 ];
 
 export const hero = {
@@ -56,21 +55,15 @@ export const about = {
 };
 
 export const reviews = {
-  label: "Det siger vores gæster",
-  items: [{ quote: "Byens bedste brød", name: "Mette" }],
-};
-
-export const job = {
-  eyebrow: "Job",
-  title: "Vi søger en ny kollega",
-  lede: "Der er plads til én mere i vores bageri i Mejlgade.",
-  body: [
-    "Hos os bliver brødet bagt fra klokken fem om morgenen, og kaffen står altid på kanden. Vi holder af godt håndværk, en venlig tone og gæster, der kommer igen.",
-    "Skriv en kort mail om dig selv, og fortæl, hvad du gerne vil lave hos os. Du er også velkommen til at kigge forbi og sige hej.",
+  title: "Det siger vores gæster",
+  items: [
+    { quote: "Byens bedste brød. Vi kommer hver lørdag, og det er altid lunt, når vi går.", name: "Mette", from: "Trøjborg" },
+    { quote: "Kanelsneglene er det bedste ved en morgen i Mejlgade.", name: "Anders", from: "Aarhus C" },
+    { quote: "De kender min bestilling, før jeg når at sige den. Sådan skal et bageri være.", name: "Karen", from: "Mejlgade" },
+    { quote: "Hyggeligt, venligt og kaffe, der faktisk smager af noget.", name: "Sofie", from: "Risskov" },
+    { quote: "Vi bestiller altid vores fødselsdagsbrød her. Det har aldrig svigtet.", name: "Jonas", from: "Vesterbro" },
+    { quote: "Tebirkes som hos min mormor. Stor ros herfra.", name: "Peter", from: "Skåde" },
   ],
-  apply: "Send din ansøgning",
-  applyHref: "mailto:hej@cafelaerke.dk?subject=Jobans%C3%B8gning",
-  contact: "Har du spørgsmål, så ring på 86 12 34 56 eller kig ind i Mejlgade 21.",
 };
 
 export const footer = {
