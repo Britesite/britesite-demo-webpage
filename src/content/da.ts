@@ -6,10 +6,21 @@ export const site = {
 };
 
 export const nav = [
-  { href: "#menu", label: "Menu" },
-  { href: "#besog", label: "Åbningstider" },
-  { href: "#om", label: "Om os" },
+  { href: "/#menu", label: "Menu" },
+  { href: "/#besog", label: "Åbningstider" },
+  { href: "/#om", label: "Om os" },
+  { href: "/job", label: "Job" },
 ];
+
+export const job = {
+  eyebrow: "Job hos Café Lærke",
+  title: "Vi søger en ny kollega",
+  lede: "Kunne du tænke dig at være en del af holdet bag morgenbrød og kaffe i Mejlgade? Vi leder efter en ny kollega til bageriet og caféen.",
+  howTitle: "Sådan søger du",
+  how: "Send os en kort besked om dig selv, og hvornår du kan starte. Vi glæder os til at høre fra dig.",
+  button: "Send din ansøgning",
+  applyHref: "mailto:hej@cafelaerke.dk?subject=Jobansøgning",
+};
 
 export const hero = {
   eyebrow: "Bageri og café i Mejlgade",
